@@ -8,10 +8,10 @@ const RegisterPage = () => {
     <section className="_form_05">
       <div className="container">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 ">
             <div className="_form-05-box formWrapper">
               <div className="row">
-                <div className="col-sm-5 _lk_nb">
+                <div className="col-sm-5 _lk_nb mobile_view">
                   <div className="iconWrapper">
                     <img src={registerImage} alt="" />
                   </div>
@@ -28,7 +28,7 @@ const RegisterPage = () => {
                           name="email"
                           className="customInput"
                           type="text"
-                          placeholder="Frist Name"
+                          placeholder="   First Name"
                           required=""
                           aria-required="true"
                         />
@@ -36,7 +36,7 @@ const RegisterPage = () => {
                           name="email"
                           className="customInput"
                           type="text"
-                          placeholder="Last Name"
+                          placeholder="   Last Name"
                           required=""
                           aria-required="true"
                         />
@@ -47,7 +47,7 @@ const RegisterPage = () => {
                           name="password"
                           className="customInput"
                           type="email"
-                          placeholder="Enter Your Email"
+                          placeholder="   Enter Your Email"
                           required=""
                           aria-required="true"
                         />
@@ -57,7 +57,7 @@ const RegisterPage = () => {
                           type="password"
                           name="password"
                           className="customInput"
-                          placeholder="Enter Password"
+                          placeholder="   Enter Password"
                           required=""
                           aria-required="true"
                         />
@@ -67,7 +67,7 @@ const RegisterPage = () => {
                           type="password"
                           name="password"
                           className="customInput"
-                          placeholder="Confirm Password"
+                          placeholder="   Confirm Password"
                           required=""
                           aria-required="true"
                         />

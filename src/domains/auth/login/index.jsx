@@ -23,7 +23,7 @@ const LoginPage = () => {
                         type="email"
                         name="email"
                         className="customInput"
-                        placeholder="Enter Email"
+                        placeholder="   Enter Email"
                         required=""
                         aria-required="true"
                       />
@@ -34,7 +34,7 @@ const LoginPage = () => {
                         type="password"
                         name="password"
                         className="customInput"
-                        placeholder="Enter Password"
+                        placeholder="   Enter Password"
                         required=""
                         aria-required="true"
                       />
@@ -71,7 +71,7 @@ const LoginPage = () => {
                   </div>
                 </div>
 
-                <div className="col-sm-6 _lk_nb">
+                <div className="col-sm-6 _lk_nb mobile_view">
                   <div className="iconWrapper">
                     <img src={loginImage} alt="" />
                   </div>
