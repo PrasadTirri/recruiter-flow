@@ -12,29 +12,35 @@ const LoginPage = () => {
           <div className="col-12">
             <div className="_form-05-box formWrapper">
               <div className="row">
-                <div className="col-sm-6 _nb-pl">
-                  <div className="_mn_df">
+                <div className="col-sm-6 _nb-pl px-2">
+                  <div className="_mn_df px-5">
                     <div className="main-head">
                       <h2>Login to your account</h2>
                     </div>
 
                     <div className="form-group">
+                      <label className="mb-2" htmlFor="email">
+                        Email
+                      </label>
                       <input
                         type="email"
                         name="email"
                         className="customInput"
-                        placeholder="   Enter Email"
+                        placeholder="Enter Email"
                         required=""
                         aria-required="true"
                       />
                     </div>
 
                     <div className="form-group">
+                      <label className="mb-2" htmlFor="email">
+                        Password
+                      </label>
                       <input
                         type="password"
                         name="password"
                         className="customInput"
-                        placeholder="   Enter Password"
+                        placeholder="Enter Password"
                         required=""
                         aria-required="true"
                       />

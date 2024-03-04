@@ -1,0 +1,25 @@
+/* JobPostingForm.css */
+.container {
+  margin-top: 30px;
+}
+.jobForm {
+  background-color: white;
+}
+.form-group label {
+  font-weight: bold;
+}
+.jobForm .input-group span {
+  border-radius: 0px;
+  padding: 8px;
+  border: 1px solid #bbbbbb;
+}
+.input-group-text {
+  background-color: #e9ecef;
+}
+.jobForm .form-control {
+  padding: 5px;
+  border: 1px solid #bbbbbb;
+}
+.jobForm .form-group {
+  padding: 8px 0;
+}

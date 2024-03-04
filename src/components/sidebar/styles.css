@@ -1,0 +1,28 @@
+.sidebarWrapper {
+  background-color: #1b2130;
+}
+.sidebarWrapper a {
+  color: white;
+}
+.sidebarWrapper a:hover {
+  color: #0d6efd;
+}
+.nav-pills {
+  gap: 1rem;
+}
+.searchInputWrapper {
+  border: 1px solid #3c5d8c;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.025);
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+}
+.searchInputWrapper .fa {
+  color: rgb(188, 188, 188);
+}
+.searchInput {
+  padding: 8px 16px;
+  background: transparent;
+  border: none;
+  color: white;
+}

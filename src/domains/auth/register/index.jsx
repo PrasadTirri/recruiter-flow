@@ -28,7 +28,7 @@ const RegisterPage = () => {
                           name="email"
                           className="customInput"
                           type="text"
-                          placeholder="   First Name"
+                          placeholder="First Name"
                           required=""
                           aria-required="true"
                         />
@@ -36,7 +36,7 @@ const RegisterPage = () => {
                           name="email"
                           className="customInput"
                           type="text"
-                          placeholder="   Last Name"
+                          placeholder="Last Name"
                           required=""
                           aria-required="true"
                         />
@@ -47,7 +47,7 @@ const RegisterPage = () => {
                           name="password"
                           className="customInput"
                           type="email"
-                          placeholder="   Enter Your Email"
+                          placeholder="Enter Your Email"
                           required=""
                           aria-required="true"
                         />
@@ -57,7 +57,7 @@ const RegisterPage = () => {
                           type="password"
                           name="password"
                           className="customInput"
-                          placeholder="   Enter Password"
+                          placeholder="Enter Password"
                           required=""
                           aria-required="true"
                         />
@@ -67,7 +67,7 @@ const RegisterPage = () => {
                           type="password"
                           name="password"
                           className="customInput"
-                          placeholder="   Confirm Password"
+                          placeholder="Confirm Password"
                           required=""
                           aria-required="true"
                         />

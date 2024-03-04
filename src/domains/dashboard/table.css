@@ -1,0 +1,27 @@
+.custom-table th,
+.custom-table td {
+  vertical-align: middle;
+}
+
+.custom-table th {
+  font-weight: bold;
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background: #381717;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.dropdown-toggle {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.even_colors {
+  background: #381717;
+}
+.action_img {
+  height: 25px;
+  text-align: center;
+}
